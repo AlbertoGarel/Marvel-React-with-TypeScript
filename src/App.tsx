@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "semantic-ui-css/semantic.min.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Comics from "./pages/Comics";
+import Error404 from "./pages/Error404";
+import Series from "./pages/Series";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path={"/"} element={<Home />}/>
+        <Route path={"/inicio"} element={<Home />}/>
+        <Route path={"/series"} element={<Series />} />
+        <Route path={"/comics"} element={<Comics />} />
+
+        <Route path={'*'} element={<Error404 />} />
+      </Routes>
     </div>
   );
 }
