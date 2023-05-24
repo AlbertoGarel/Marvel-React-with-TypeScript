@@ -1,8 +1,8 @@
-
+import BestCharacter from '../components/BestCharacter';
 export default function Home(){
     return (
         <div>
-            desde HOME 
+            <BestCharacter/>
         </div>
     )
 }

@@ -1,10 +1,16 @@
 import { useState } from "react";
-import "./header.scss";
+import "./Header.scss";
 import { Menu } from "semantic-ui-react";
 import { SemanticMenu, LocationState } from "../../types/Home.d";
 import { useLocation, useNavigate, NavigateFunction } from "react-router";
+import "./Header.scss";
 
-export default function Header() {
+interface HeaderProps {
+  setTheme: () => void
+  theme: boolean
+}
+
+export default function Header({ setTheme, theme }: HeaderProps) {
   const currentPath = useLocation();
   const locationState = currentPath as LocationState;
   const { pathname } = locationState;
@@ -36,6 +42,11 @@ export default function Header() {
           active={activeItem === SemanticMenu[3]}
           onClick={(e) => handlerItemClick(e, SemanticMenu[3])}
         />
+        <Menu.Item
+        name={theme ? 'dark theme' : 'light theme'}
+        onClick={setTheme}
+        id="button-theme"
+        ></Menu.Item>
       </Menu>
     </div>
   );
