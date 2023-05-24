@@ -4,10 +4,12 @@ import Home from "./pages/Home";
 import Comics from "./pages/Comics";
 import Error404 from "./pages/Error404";
 import Series from "./pages/Series";
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
+       <Header/>
       <Routes>
         <Route path={"/"} element={<Home />}/>
         <Route path={"/inicio"} element={<Home />}/>

@@ -1,3 +1,8 @@
+
 export default function Home(){
-    return <div>is home</div>
+    return (
+        <div>
+            desde HOME 
+        </div>
+    )
 }
