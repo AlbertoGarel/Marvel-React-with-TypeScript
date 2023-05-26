@@ -1,0 +1,16 @@
+@import url("../../themes.css");
+
+.grid-container-error{
+    background-color: var(--background-primary);
+    display: flex;
+    flex-wrap: wrap;
+
+    #error-text,
+    #image-error{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+}

@@ -4,16 +4,16 @@
 }
 [data-theme="light"] {
   --background-primary: #ffffff;
-  --background-secondary: #A7A6A6;
+  --background-secondary: #E9E9E9;
   --text-primary: #000000;
   --text-secondary: #5B5B5B;
-  --border: #E9E9E9;
+  --border: #A7A6A6;
 }
 
 [data-theme="dark"] {
     --background-primary: #000000;
-    --background-secondary: #E9E9E9 ;
+    --background-secondary:#A7A6A6;
     --text-primary: #FFFFFF;
     --text-secondary: #5B5B5B;
-    --border: #A7A6A6;
+    --border: #E9E9E9;
 }

@@ -26,7 +26,7 @@ export default function Header({ setTheme, theme }: HeaderProps) {
 
   return (
     <div className="header-menu">
-      <Menu secondary>
+      <Menu secondary id="items-container">
         <Menu.Item
           name="inicio"
           active={activeItem === SemanticMenu[1]}

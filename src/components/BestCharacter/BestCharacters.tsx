@@ -7,7 +7,7 @@ import "./BestCharacters.scss";
 export default function BestCharacters() {
   return (
     <Container>
-      <Grid columns={2} divided="vertically">
+      <Grid divided="vertically" className="ui stackable two column grid">
         <Grid.Column>
           <div className="best-characters">
             <Header as="h1">
@@ -18,7 +18,7 @@ export default function BestCharacters() {
           </div>
         </Grid.Column>
         <Grid.Column className="image-container" style={{display: 'flex'}}>
-          <img src={marvelImage} alt="Marvel App" className="responsive-img" style={{alignSelf: 'center'}}/>
+          <Image src={marvelImage} alt="Marvel App" className="responsive-img" style={{alignSelf: 'center'}}/>
         </Grid.Column>
       </Grid>
     </Container>

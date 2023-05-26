@@ -1,0 +1,20 @@
+@import url("../../themes.css");
+
+.footer{
+    background-color: var(--header-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center!important;
+
+    h4{
+        margin: 0!important;
+        color: #FFFFFF!important;
+    }
+
+    #footer-image{
+        display: flex;
+        width: 10rem;
+        height: auto;
+        margin: 20px 0;
+    }
+}
