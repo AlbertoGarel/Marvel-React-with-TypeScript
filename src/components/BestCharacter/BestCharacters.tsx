@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Header, Button, Grid, Image } from "semantic-ui-react";
 import Container from "../Container";
 import marvelImage from "../../img/marvel.png";
