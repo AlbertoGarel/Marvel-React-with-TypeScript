@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import {Result} from '../types/fetchEvents.d';
-export default function useFetch(url: string, options: {}) {
+export default function useFetch(url: string) {
   const [result, setResult] = useState<Result[]>();
   const [loading, setloading] = useState<boolean>(true);
   const [error, setError] = useState<string>('');
@@ -8,7 +8,7 @@ export default function useFetch(url: string, options: {}) {
   useEffect(() => {
     const toFetch = async () => {
       try {
-        const request_API = await fetch(url, options);
+        const request_API = await fetch(url);
         const json = await request_API.json();
         setResult(json.data.results);
         setloading(false);
@@ -19,7 +19,7 @@ export default function useFetch(url: string, options: {}) {
       }
     };
     toFetch();
-  }, []);
+  }, [url]);
 
   return {loading, result, error};
 }

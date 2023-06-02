@@ -3,7 +3,6 @@ import "./Header.scss";
 import { Menu } from "semantic-ui-react";
 import { SemanticMenu, LocationState } from "../../types/Home.d";
 import { useLocation, useNavigate, NavigateFunction } from "react-router";
-import "./Header.scss";
 
 interface HeaderProps {
   setTheme: () => void

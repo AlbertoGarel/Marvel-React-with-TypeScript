@@ -1,6 +1,8 @@
 :root {
   --button-bg-primary: #00a3da;
   --header-bg: #505050;
+  --callaction-button: #e62429;
+  --text-callaction-button: #FFFFFF;
 }
 [data-theme="light"] {
   --background-primary: #ffffff;

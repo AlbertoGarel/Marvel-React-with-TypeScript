@@ -8,7 +8,7 @@ import {UselastListFetch} from '../../types/useFetch.d'
 
 export default function ListLastEvents() {
   const toFetch: string = `${process.env.REACT_APP_URL_BASE}/events?apikey=${process.env.REACT_APP_API_KEY_MARVEL}&hash=${process.env.REACT_APP_HASH_ID}&ts=${process.env.REACT_APP_TIME_STAMP}`;
-  const lastListFetch: UselastListFetch = useFetch(toFetch, {});
+  const lastListFetch: UselastListFetch = useFetch(toFetch);
   const { loading, result, error } = lastListFetch;
 
   if (error.length) {

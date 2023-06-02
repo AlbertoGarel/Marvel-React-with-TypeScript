@@ -121,3 +121,17 @@ export enum URLType {
  Detail = "detail",
  Wiki = "wiki",
 }
+
+export interface Characters {
+    comics:      Comics;
+    description: string;
+    events:      Comics;
+    id:          number;
+    modified:    string;
+    name:        string;
+    resourceURI: string;
+    series:      Comics;
+    stories:     Stories;
+    thumbnail:   Thumbnail;
+    urls:        URL[];
+   }

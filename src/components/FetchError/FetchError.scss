@@ -1,9 +1,10 @@
-@import url("../../themes.css");
+@import url("../../css/themes.css");
 
 .grid-container-error{
     background-color: var(--background-primary);
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 0!important;
 
     #error-text,
     #image-error{

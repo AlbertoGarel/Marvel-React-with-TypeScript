@@ -28,9 +28,12 @@
 
     &:hover {
       background-color: var(--button-bg-primary);
-      color: var(text-primary);
+      color: var(--background-primary);
       transition: background-color 0.15s ease-in-out;
-      color: var(--text-primary);
+    }
+
+    &:focus {
+      background-color: var(--button-bg-primary);
     }
   }
 
