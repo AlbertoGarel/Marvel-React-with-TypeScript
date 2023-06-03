@@ -7,6 +7,7 @@ interface LastEventsProps {
   item: Result;
 }
 export default function LastEvents({ item }: LastEventsProps) {
+  
   return (
     <Card key={item.id} className="last-event">
       <Image

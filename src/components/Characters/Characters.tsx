@@ -1,13 +1,12 @@
 import { Card, Icon, Image, Button } from "semantic-ui-react";
-import { Characters } from "../../types/fetchEvents.d";
+import { Characters_heroes } from "../../types/fetchEvents.d";
 import "../ListCharacters/ListCharacters.scss";
 import "../ListLastEvents/ListLastEvents.scss";
 
 interface LastEventsProps {
-  item: Characters;
+  item: Characters_heroes;
 }
 export default function CharactersComponent({ item }: LastEventsProps) {
-
 
   return (
     <Card key={item.id} className="last-event">
