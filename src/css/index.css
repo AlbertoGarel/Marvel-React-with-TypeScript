@@ -93,3 +93,8 @@ code {
   background-color: var(--background-primary);
   margin-top: -1rem;
 }
+
+#button_page_error404{
+  background-color: var(--button-bg-primary);
+  color: var(--text-callaction-button);
+}
