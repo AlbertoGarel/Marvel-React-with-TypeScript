@@ -27,7 +27,7 @@ export default function ListSeries({ listSeries }: ListSeriesProps) {
   return (
     <Card.Group className="ui stackable three column grid" id="list-card-content">
       {result.map((res, index) => (
-        <Card key={index} className="list-series">
+        <Card key={res.id} className="list-series">
           <Image
             src={`${res.thumbnail.path}.${res.thumbnail.extension}`}
             wrapped

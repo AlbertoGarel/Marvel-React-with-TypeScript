@@ -122,7 +122,7 @@ export enum URLType {
  Wiki = "wiki",
 }
 
-export interface Characters {
+export interface Characters_heroes {
     comics:      Comics;
     description: string;
     events:      Comics;
