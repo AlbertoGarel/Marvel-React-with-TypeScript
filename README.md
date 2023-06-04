@@ -90,7 +90,7 @@ This App uses the following packages:
 
 </br>
 
-## Visit the site:
+<!-- ## Visit the site:
 
 </br>
 
@@ -99,4 +99,4 @@ This App uses the following packages:
     <a href="" target="_blank">
     <p align="center">🔗 Marvel App - Netlify</p>
     </a>
-</p>
+</p> -->
