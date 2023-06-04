@@ -81,7 +81,7 @@ This App uses the following packages:
 </br>
 
 <p align="center">
-    <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy icon" width="250"/>
+    <img src="https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/udemy-logo.svg" alt="Udemy icon" width="250"/>
     </br>
     <a href="https://www.udemy.com/course/aprende-react-js-desde-cero-paso-a-paso/" target="_blank">
     🔗 Aprende React JS desde Cero
