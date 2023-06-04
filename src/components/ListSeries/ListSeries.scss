@@ -1,0 +1,60 @@
+@import url("../../css/themes.css");
+
+#list-card-content {
+  background-color: var(--background-secondary);
+
+  .content,
+  .content.extra {
+    background-color: var(--background-primary);
+  }
+
+  .visible.content{
+    background-color: var(--background-secondary);
+  }
+
+  .content .header{
+    color: var(--text-primary);
+  }
+
+  .hidden.content{
+    color: var(--text-primary);
+    background-color: var(--background-secondary);
+  }
+
+  div.content a {
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
+  }
+}
+
+.list-series {
+  .header {
+    height: 60px;
+  }
+
+  .description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+  .image {
+    height: 300px;
+    display: flex !important;
+  }
+}
+
+.container-button {
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.container-bg h2 {
+  color: var(--text-primary) !important;
+}
+
+.series-page .header {
+  margin-top: 0 !important;
+  padding-top: 30px !important;
+}

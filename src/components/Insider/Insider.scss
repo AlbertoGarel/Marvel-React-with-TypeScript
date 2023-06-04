@@ -1,0 +1,42 @@
+@import url("../../css/themes.css");
+
+.container-insider {
+    padding: 40px 0;
+  
+    .column {
+      display: flex;
+      align-items: center;
+  
+      .header {
+        text-align: center;
+      }
+  
+      h1 {
+        margin: 20px 0;
+        color: var(--callaction-button);
+        letter-spacing: 3px;
+      }
+  
+      h3 {
+        color: var(--text-primary);
+        font-weight: 800;
+        margin: 0 0 10px;
+        font-size: 26px !important;
+      }
+    }
+  
+    &-content-button {
+      text-align: center;
+  
+      .button {
+        background-color:var(--callaction-button)!important;
+        color: var(--text-callaction-button)!important;
+
+        &:hover{
+          transform: scale(1.1);
+          color: var(--background-primary)!important;
+        }
+      }
+    }
+
+  }
